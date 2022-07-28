@@ -1,4 +1,4 @@
-import AbstractView from '../../lib/AbstractView.js';
+import AbstractView from './AbstractView.js';
 import '../components/counter.js';
 
 export default class extends AbstractView {

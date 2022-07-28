@@ -41,8 +41,8 @@ const routing = [
     url: /^\/item\/([^/]+)\/([^/]+)\/?$/,
     params: ['shopId', 'itemId'],
     paramsMatching: [
-      (shopId) => /^\d+$/.test(shopId),
-      (itemId) => /^\d+$/.test(itemId),
+      // (shopId) => /^\d+$/.test(shopId),
+      // (itemId) => /^\d+$/.test(itemId),
     ],
     component: async (param) => new(await import('./views/Anyrout.js')).default(param)
   },
