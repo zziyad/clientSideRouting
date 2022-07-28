@@ -4,7 +4,7 @@ import '../components/counter.js';
 export default class extends AbstractView {
   constructor(params) {
     super(params);
-    this.setTitle('Item');
+    this.setTitle('Anyrout');
   }
 
   async getHtml() {

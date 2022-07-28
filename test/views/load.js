@@ -1,9 +1,9 @@
 import AbstractView from './AbstractView.js';
-import '../components/load.js';
+import './loadingIndicator.js';
 export default class extends AbstractView {
   constructor(params) {
     super(params);
-    this.setTitle('Viewing Post');
+    this.setTitle('');
   }
 
   async getHtml() {

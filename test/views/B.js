@@ -3,7 +3,7 @@ import '../components/counter.js';
 export default class extends AbstractView {
   constructor(params) {
     super(params);
-    this.setTitle('Viewing Post');
+    this.setTitle('B');
   }
 
   async getHtml() {
